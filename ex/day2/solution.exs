@@ -61,5 +61,5 @@ defmodule AOC23.Day2 do
   end
 end
 
-File.stream!("lib/day2/input.txt") |> AOC23.Day2.part1() |> IO.inspect()
-File.stream!("lib/day2/input.txt") |> AOC23.Day2.part2() |> IO.inspect()
+File.stream!("day2/input.txt") |> AOC23.Day2.part1() |> IO.inspect()
+File.stream!("day2/input.txt") |> AOC23.Day2.part2() |> IO.inspect()

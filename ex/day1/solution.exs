@@ -138,5 +138,5 @@ defmodule AOC23.Day1 do
   end
 end
 
-File.stream!("lib/day1/input.txt") |> AOC23.Day1.part1() |> IO.puts()
-File.stream!("lib/day1/input.txt") |> AOC23.Day1.part2() |> IO.puts()
+File.stream!("day1/input.txt") |> AOC23.Day1.part1() |> IO.puts()
+File.stream!("day1/input.txt") |> AOC23.Day1.part2() |> IO.puts()
